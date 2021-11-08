@@ -1,6 +1,6 @@
-public class WidgetFactory {
-
-    /*
+import javax.swing.*;
+import java.text.DecimalFormat;
+/*
     Lessons L1 - L3
 
     You have been asked by the manager of the Widget Factory to create a program which will tell how many days it will take to produce a number of widgets.
@@ -28,4 +28,13 @@ public class WidgetFactory {
      Profit: $760.00
 
      */
+public class WidgetFactory {
+    public static void main(String[] args) {
+      int widgets;
+      int days;
+
+        widgets = Integer.parseInt(JOptionPane.showInputDialog("How many widgets did you buy?"));
+        System.exit(0);
+    }
+
 }
